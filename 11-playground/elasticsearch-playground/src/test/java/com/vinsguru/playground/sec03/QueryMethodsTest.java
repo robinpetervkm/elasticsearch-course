@@ -1,6 +1,5 @@
 package com.vinsguru.playground.sec03;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.vinsguru.playground.AbstractTest;
 import com.vinsguru.playground.sec03.entity.Product;
 import com.vinsguru.playground.sec03.repository.ProductRepository;
@@ -13,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.util.Streamable;
+import tools.jackson.core.type.TypeReference;
 
 import java.util.List;
 

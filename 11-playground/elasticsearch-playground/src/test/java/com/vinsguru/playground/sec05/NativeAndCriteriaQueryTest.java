@@ -5,7 +5,6 @@ import co.elastic.clients.elasticsearch._types.query_dsl.*;
 import co.elastic.clients.elasticsearch.core.search.CompletionSuggester;
 import co.elastic.clients.elasticsearch.core.search.FieldSuggester;
 import co.elastic.clients.elasticsearch.core.search.Suggester;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.vinsguru.playground.AbstractTest;
 import com.vinsguru.playground.sec05.entity.Garment;
 import com.vinsguru.playground.sec05.repository.GarmentRepository;
@@ -20,6 +19,7 @@ import org.springframework.data.elasticsearch.core.query.Criteria;
 import org.springframework.data.elasticsearch.core.query.CriteriaQuery;
 import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
 import org.springframework.data.elasticsearch.core.suggest.response.Suggest;
+import tools.jackson.core.type.TypeReference;
 
 import java.util.List;
 import java.util.Set;

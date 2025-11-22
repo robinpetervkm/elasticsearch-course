@@ -1,6 +1,5 @@
 package com.vinsguru.playground.sec04;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.vinsguru.playground.AbstractTest;
 import com.vinsguru.playground.sec04.entity.Article;
 import com.vinsguru.playground.sec04.repository.ArticleRepository;
@@ -8,6 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import tools.jackson.core.type.TypeReference;
 
 import java.util.List;
 
